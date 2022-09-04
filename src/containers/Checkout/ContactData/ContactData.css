@@ -9,6 +9,10 @@
     border-radius: 10px;
 }
 
+.ContactData button {
+    margin: 15px 0 10px 0;
+}
+
 @media (min-width: 600px) {
     .ContactData {
         width: 500px;

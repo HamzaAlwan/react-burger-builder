@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+.Auth button:first-of-type {
+    margin-top: 15px;
+}
+
+.Auth button {
+    margin-bottom: 10px;
+}
+
 @media (min-width: 600px) {
     .Auth {
         width: 500px;
