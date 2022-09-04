@@ -9,14 +9,19 @@
     display: block;
     font: inherit;
     padding: 5px;
-    margin: 0 5px;
+    margin: 0 10px;
     width: 80px;
-    border: 1px solid #AA6817;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     cursor: pointer;
     outline: none;
     border-radius: 10px;
+    transition: all 0.1s linear;
 }
 
+.BuildControl button:hover:not(:disabled) {
+    scale: 1.05;
+}
 
 .BuildControl button:disabled {
     background-color: #AC9980;

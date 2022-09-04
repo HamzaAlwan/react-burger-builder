@@ -13,20 +13,20 @@
     background-color: #DAD735;
     outline: none;
     cursor: pointer;
-    border: 1px solid #966909;
+    border: none;
     color: #966909;
     font-family: inherit;
     font-size: 1.2em;
     padding: 15px 30px;
-    box-shadow: 2px 2px 2px #966909;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-radius: 10px;
     margin: 25px 0;
 }
 
-.OrderButton:hover, .OrderButton:active {
+.OrderButton:hover:not(:disabled), .OrderButton:active {
     background-color: #A0DB41;
-    border: 1px solid #966909;
     color: #966909;
+    scale: 1.05;
 }
 
 .OrderButton:disabled {
